@@ -1,10 +1,23 @@
 "use strict";
 // console.log("Ts is working");
 // alert("Ts is working");
-// let a = 25;
-// a = "2"; 
-// this will run in js file but error in ts file
-// console.log(a);
-let a = "AMiT Kumar";
-let x = 25;
-let check = true;
+const gigi1 = {
+    height: 5.6,
+    weight: 51,
+    name: "Amit",
+    scholar: true
+};
+const gigi2 = {
+    height: 5.6,
+    weight: 51,
+    name: "Amit",
+    scholar: true,
+    func: (n, m) => {
+        console.log(n + m);
+    }
+};
+const obj2 = {
+    height: 5.6,
+    weight: 51,
+    name: "Anuj",
+};
